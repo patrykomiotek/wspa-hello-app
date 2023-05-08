@@ -1,0 +1,17 @@
+{
+  "name": "hello-app",
+  "version": "0.0.1",
+  "description": "First Node.js application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "say-hello": "node ./hello.js",
+    "now": "node ./date.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^2.30.0"
+  }
+}
